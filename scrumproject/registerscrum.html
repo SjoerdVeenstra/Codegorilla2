@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>scrumprojectmarktplaats_Sjoerd_Veenstra</title>
+<link rel="stylesheet" type="text/css" href="stylesheetscrum.css">
+</head>
+
+<body>
+    <div id="registerpagina">
+         <section class="section-aa">
+                Sign up as a customer
+                <form action="registerscrum.php" method="POST"><!-- verwijzing nog steeds goed?-->
+                     <input type ="text" name="firstname" placeholder="First name..." class="formstyle">
+                     <input type="text" name="lastname" placeholder="Last name..." class="formstyle">
+                     <input type="radio" name="gender" value="Male" label="Male" class="formstyle"><h6>Male</h6><br>
+                     <input type="radio" name="gender" value="Female" label="Female" class="formstyle"><h6>Female</h6>
+                     <input type="email" name="email" placeholder="Your e-mail-address..." class="formstyle">
+                     <input type="password" name="password" placeholder="Choose your password..." class="formstyle">
+                     <input type="password" name="password" placeholder="Repeat your password..." class="formstyle">
+                     <input type="submit" name="submit" value="Submit" id="submit-button">
+                </form>
+        </section>
+
+        <section class="section-ba">
+                Sign up as a seller
+                <form action="registerscrum.php" method="POST"><!-- verwijzing nog steeds goed?-->
+                    <input type ="text" name="firstname" placeholder="First name..." class="formstyle">
+                    <input type="text" name="lastname" placeholder="Last name..." class="formstyle">
+                    <input type="radio" name="gender" value="Male" class="formstyle"><h6>Male</h6><br>
+                    <input type="radio" name="gender" value="Female" class="formstyle"><h6>Female</h6>
+                    <input type="email" name="email" placeholder="Your e-mail-address..." class="formstyle">
+                    <input type="password" name="password" placeholder="Choose your password..." class="formstyle">
+                    <input type="password" name="password" placeholder="Repeat your password..." class="formstyle">
+                    <input type="submit" name="submit" value="Submit" id="submit-button">
+                </form>
+        </section>
+    </div>
+
+</body>
+</html>
