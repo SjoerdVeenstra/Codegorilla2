@@ -391,6 +391,10 @@ a:hover{
     cursor: pointer;
 }
 
+*:focus {
+    outline: none;
+}
+
 #grow{
     transition: all .2s ease-in-out;
 }
